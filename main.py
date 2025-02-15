@@ -5,7 +5,7 @@ def main():
     running_total()
 
 # adjustment 2: create a running_total function
-# that contains sebastian's the original code
+# that contains sebastian's original code
 def running_total():
     total = 0
     for i in range(5):

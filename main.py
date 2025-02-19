@@ -1,7 +1,11 @@
 """There are 3 errors in this code. Please use your own ability to find them all. Consider this a Python refresher."""
+def number_counter(number): 
+    total = 0 
+    for i in range(5):
+        number = input("Enter a number: ")
+        total += int(number)
 
-for i in range(5):
-    number = input("Enter a number: ")
-    total += number
+    print("The running total is: ", total)
 
-print("The running total is: "  total)
+number_counter()
+

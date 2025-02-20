@@ -1,5 +1,5 @@
 """There are 3 errors in this code. Please use your own ability to find them all. Consider this a Python refresher."""
-def main():
+def running_total():
     total = 0 
     for i in range(5):
         number = int(input("Enter a number: "))
@@ -7,4 +7,8 @@ def main():
 
     print("The running total is: " + str(total))
 
-main()
+def main():
+    running_total()
+
+if __name__ == "__main__":
+    main()

@@ -1,8 +1,17 @@
-"""There are 3 errors in this code. Please use your own ability to find them all. Consider this a Python refresher."""
-total = 0 # Error 1: Added total = 0
+def main():
+    """
+    Prompts the user to enter five numbers and calculates the running total.
+    Prints the final total.
+    """
+    
+    total = 0  # Initialize total to zero
 
-for i in range(5):
-    number = int(input("Enter a number: ")) # Error 2: Added int
-    total += number
+    for _ in range(5):
+        number = int(input("Enter a number: "))  # Get user input as integer
+        total += number  # Add number to running total
 
-print("The running total is:  "+ str(total)) # Error 3: Added str()
+    print("The running total is: " + str(total))  # Print final total
+
+
+if __name__ == "__main__":
+    main()
